@@ -1,5 +1,16 @@
 " ======= Chenlola config start =====
 filetype on
+set ai
+set mouse=a
+set number
+set hlsearch
+set ruler
+highlight LineNr ctermfg=DarkGray
+highlight Comment ctermfg=green
+set autoindent
+set softtabstop=4
+set backspace=indent,eol,start
+imap <C-c> <Esc>
 " ======= Chenlola config end  =====
 
 filetype plugin indent on
@@ -21,11 +32,4 @@ set wildmode=longest,list,full
 syntax on
 
 "========= chenlola config ==========
-set mouse=a
-set number
-highlight LineNr ctermfg=DarkGray
-set autoindent
-set softtabstop=4
-set backspace=indent,eol,start
-imap <C-c> <Esc>
 
